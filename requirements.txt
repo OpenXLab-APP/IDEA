@@ -12,3 +12,8 @@ termcolor==1.1.0
 timm==0.9.7
 transformers==4.22.0
 yapf==0.32.0
+
+torch==1.12.1+cu117
+torchvision==0.13.1+cu117 
+torchaudio==0.12.1 
+--extra-index-url https://download.pytorch.org/whl/cu117
