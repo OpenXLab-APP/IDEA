@@ -10,7 +10,5 @@ seaborn==0.13.0
 setuptools==63.4.1
 termcolor==1.1.0
 timm==0.9.7
-torch==1.12.1
-torchvision==0.13.1
 transformers==4.22.0
 yapf==0.32.0
