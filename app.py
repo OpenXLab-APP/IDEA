@@ -2,6 +2,10 @@ import argparse
 import os
 os.system("pip install ftfy regex tqdm")
 os.system("pip install git+https://github.com/openai/CLIP.git")
+os.system('cd models/UniPose/ops')
+os.system('python setup.py build install')
+os.system('cd ../..')
+
 import sys
 import io
 import gradio as gr
