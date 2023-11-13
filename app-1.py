@@ -366,7 +366,8 @@ if __name__ == "__main__":
     block = gr.Blocks().queue()
     with block:
         with gr.Row():
-            gr.Markdown(MARKDOWN)
+            gr.Markdown(MARKDOWN)            
+        with gr.Row():
             with gr.Column():
                 input_image = gr.Image(source='upload', type="pil")
                 instance_prompt = gr.Textbox(label="Instance Prompt")
