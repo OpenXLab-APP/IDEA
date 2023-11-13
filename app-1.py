@@ -22,7 +22,8 @@ from matplotlib.patches import Polygon
 from matplotlib import transforms
 from torchvision.ops import nms
 
-
+from openxlab.model import download
+download(model_repo='IDEA-Research/UniPose', model_name='unipose_swint.pth')
 
 def text_encoding(instance_names, keypoints_names, model, device):
 
