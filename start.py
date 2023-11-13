@@ -7,5 +7,5 @@ subprocess.run(build_install_command, shell=True, check=True)
 home_directory = "/home/xlab-app-center/"
 os.chdir(home_directory)
 
-app_command = "python app.py"
+app_command = "python app-1.py"
 subprocess.run(app_command, shell=True, check=True)
